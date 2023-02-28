@@ -1,0 +1,117 @@
+  
+
+  th,td{
+    background: white; 
+    color: green;
+   
+   
+}
+
+table.space{
+    border-bottom: solid green 8px; /*Distancia entre tr*/
+    border-collapse:separate;
+    border-spacing:0 15px;
+   
+}
+
+
+/* thead{
+   
+    text-align: center;
+     
+} */
+
+td{
+    /* text-align: center; */
+    font-size: 16px; 
+     
+}
+
+
+th{
+    color:green;
+    font-size: 25px; 
+     
+}
+
+td.cor{
+   
+    color:red;
+    
+     
+}
+
+td.b_left{
+   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  
+}
+
+td.b_right{
+   
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0px; 
+}
+
+.article {
+	font-size: 14px;
+	display: inline;
+	width: 60%;
+	float: left;
+   }
+   
+   .sidebar {
+	display: inline;
+	width: 30%;
+	float: right;
+   }
+
+.option {
+    font-family: 'Segoe UI';
+    font-size: 15px !important;
+    font-weight: bold;
+    color: #228C4F;
+}
+   p {
+	color:green;
+    font-size: 40px; 
+   }
+   
+
+.alternativa {
+    font-family: 'Segoe UI';
+    font-size: 15px !important;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+input[type="radio"]:checked+label.opcao {
+    background-color: green;
+
+
+}
+
+/* .bigOption{
+    background-color: black;        
+} */
+
+input[type="radio"] {
+    display: none;
+}
+
+.radioNotSelected {
+    background-color: #00D355;
+}
+
+
+
+
+
+
+
+   
